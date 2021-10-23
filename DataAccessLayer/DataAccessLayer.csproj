@@ -79,6 +79,10 @@
     <Compile Include="Migrations\202110180921557_mig_imageSizeChange.designer.cs">
       <DependentUpon>202110180921557_mig_imageSizeChange.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202110230939355_mig_writer_status.cs" />
+    <Compile Include="Migrations\202110230939355_mig_writer_status.designer.cs">
+      <DependentUpon>202110230939355_mig_writer_status.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -101,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202110180921557_mig_imageSizeChange.resx">
       <DependentUpon>202110180921557_mig_imageSizeChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110230939355_mig_writer_status.resx">
+      <DependentUpon>202110230939355_mig_writer_status.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

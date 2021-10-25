@@ -54,10 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abtstract\IAboutService.cs" />
     <Compile Include="Abtstract\ICategoryService.cs" />
     <Compile Include="Abtstract\IContentService.cs" />
     <Compile Include="Abtstract\IHeadingService.cs" />
     <Compile Include="Abtstract\IWriterService.cs" />
+    <Compile Include="Concrete\AboutManager.cs" />
     <Compile Include="Concrete\CategoryManager.cs" />
     <Compile Include="Concrete\ContentManager.cs" />
     <Compile Include="Concrete\HeadingManager.cs" />
